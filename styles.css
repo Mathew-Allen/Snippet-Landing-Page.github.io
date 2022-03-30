@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aquamarine;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(./Assets/Background.png);
+  height: 100vh;
+  overflow: hidden;
+}
+.opening-content-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px;
+  margin-top: 50px;
+}
+
+.btn-none {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+}
+.btn-dark {
+  background-color: black;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+input {
+  border: 2px black;
+  border-radius: 18px;
+  height: 40px;
+  width: 500px;
+  transform: translate(100px, -9px);
+}
+
+.icon {
+  transform: translate(66px, -3px);
+}

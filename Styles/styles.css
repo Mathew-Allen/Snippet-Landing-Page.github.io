@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aquamarine;
+  box-sizing: border-box;
+  background-image: url(../Assets/Background.png);
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+/*Backgrounding styling*/
+
+header{
+  display: grid;
+  grid-template-columns: auto;
+  padding-top: 35px;
+}
+
+.header-logo{
+  cursor: pointer;
+}
+
+.logo{
+  height: 25px;
+}
+
+.search-icon{
+  cursor: pointer;
+}
+.navigaton-bar{
+  padding: 20px 150px 20px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigaton{
+  display: flex;
+}
+
+.search-icon{
+  height: 20px;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  list-style: none;
+}
+
+.nav-links{
+  text-decoration: none;
+  padding: 0px 4px 0px 4px;
+}
+
+.sign-in-btn-light{
+  color: rgb(30, 29, 29);
+  padding: 10px 10px 10px 10px;
+}
+
+.Get-started-btn-dark{
+  color: aliceblue;
+  background: black;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+}
+
+

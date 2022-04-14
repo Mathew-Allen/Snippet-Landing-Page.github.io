@@ -3,24 +3,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  background-color: aquamarine;
   
-  background-image: url(../Assets/Background.png);
-  height: 100vh;
-  overflow: hidden;
+  /*overflow: hidden ;*/
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   font-weight: lighter;
 }
 
 
-
+/* styling for the content in header*/ 
 header{
-  display: grid;
-  grid-template-columns: auto;
+  background-image: url(../Assets/Background.png);
+  height: 123.8vh;
   padding-top: 35px;
 }
 
@@ -35,6 +33,7 @@ header{
 .search-icon{
   cursor: pointer;
 }
+
 .navigaton-bar{
   padding: 20px 150px 20px 150px;
   display: flex;
@@ -58,21 +57,80 @@ nav li{
   list-style: none;
 }
 
-.nav-links{
+/*button styles*/
+
+.base{
   text-decoration: none;
+  word-spacing: 4px;
+}
+.nav-link-sign-in{
+  
   padding: 0px 4px 0px 4px;
+  border-radius: 5px;
 }
 
-.sign-in-btn-light{
-  color: rgb(30, 29, 29);
-  padding: 10px 10px 10px 10px;
-}
-
-.Get-started-btn-dark{
-  color: aliceblue;
-  background: black;
+.nav-link-Get-started{
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
 }
 
+/*uility classes for buttons*/
+.btn-light{
+  color: rgb(30, 29, 29);
+  padding: 10px 10px 10px 10px;
+}
 
+.btn-dark{
+  color: aliceblue;
+  background: black;
+}
+
+/* stylings for the main content of the page*/
+.landing-section{
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  margin: auto;
+  
+}
+
+.big-opening-text{
+  padding-bottom: 20px;
+  width: 100%;
+  font-size: 40px;
+}
+
+h1{
+  margin-left: 10px ;
+}
+
+.open-paragragh{
+  padding-bottom: 20px;
+}
+
+.open-paragragh p{
+  max-width: 680px;
+  margin-left: 350px;
+  font-size: 1.2rem;
+}
+
+.get-started-link{
+  padding-top: 8px ;
+}
+
+.no-card-required{
+  padding-top: 28px;
+}
+
+.code-snippet{
+  padding-top: 60px;
+}
+
+.code-snippet img{
+  width: 80%;
+  height: ;
+}
+
+.second-content{
+  background: white;
+}

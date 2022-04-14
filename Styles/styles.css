@@ -7,130 +7,126 @@
 }
 
 body {
-  
   /*overflow: hidden ;*/
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.1rem;
   font-weight: lighter;
 }
 
-
-/* styling for the content in header*/ 
-header{
+/* styling for the content in header*/
+header {
   background-image: url(../Assets/Background.png);
   height: 123.8vh;
   padding-top: 35px;
 }
 
-.header-logo{
+.header-logo {
   cursor: pointer;
 }
 
-.logo{
+.logo {
   height: 25px;
 }
 
-.search-icon{
+.search-icon {
   cursor: pointer;
 }
 
-.navigaton-bar{
+.navigaton-bar {
   padding: 20px 150px 20px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header-navigaton{
+.header-navigaton {
   display: flex;
 }
 
-.search-icon{
+.search-icon {
   height: 20px;
 }
 
-nav ul{
+nav ul {
   display: flex;
 }
 
-nav li{
+nav li {
   list-style: none;
 }
 
 /*button styles*/
 
-.base{
+.base {
   text-decoration: none;
   word-spacing: 4px;
 }
-.nav-link-sign-in{
-  
+.nav-link-sign-in {
   padding: 0px 4px 0px 4px;
   border-radius: 5px;
 }
 
-.nav-link-Get-started{
+.nav-link-Get-started {
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
 }
 
 /*uility classes for buttons*/
-.btn-light{
+.btn-light {
   color: rgb(30, 29, 29);
   padding: 10px 10px 10px 10px;
 }
 
-.btn-dark{
+.btn-dark {
   color: aliceblue;
   background: black;
 }
 
 /* stylings for the main content of the page*/
-.landing-section{
+.landing-section {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 60px;
   margin: auto;
-  
 }
 
-.big-opening-text{
+.big-opening-text {
   padding-bottom: 20px;
   width: 100%;
   font-size: 40px;
 }
 
-h1{
-  margin-left: 10px ;
+h1 {
+  margin-left: 10px;
 }
 
-.open-paragragh{
+.open-paragragh {
   padding-bottom: 20px;
 }
 
-.open-paragragh p{
+.open-paragragh p {
   max-width: 680px;
   margin-left: 350px;
   font-size: 1.2rem;
 }
 
-.get-started-link{
-  padding-top: 8px ;
+.get-started-link {
+  padding-top: 8px;
 }
 
-.no-card-required{
+.no-card-required {
   padding-top: 28px;
 }
 
-.code-snippet{
+.code-snippet {
   padding-top: 60px;
 }
 
-.code-snippet img{
+.code-snippet img {
   width: 80%;
-  height: ;
 }
 
-.second-content{
+.second-content {
   background: white;
+  display: flex;
 }

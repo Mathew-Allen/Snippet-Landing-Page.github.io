@@ -126,7 +126,19 @@ h1 {
   width: 80%;
 }
 
-.second-content {
+.main-content {
   background: white;
+}
+
+.two-columns {
   display: flex;
+  padding: 60px 36px 50px 150px;
+}
+
+.snippet-information {
+  text-align: center;
+}
+
+.customizable-snippet-image img {
+  width: 80%;
 }

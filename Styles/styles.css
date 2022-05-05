@@ -16,12 +16,13 @@ body {
 /* styling for the content in header*/
 header {
   background-image: url(../Assets/Background.png);
-  height: 123.8vh;
+  height: 88.2vh;
   padding-top: 35px;
 }
 
 .header-logo {
   cursor: pointer;
+  margin-left: -30px;
 }
 
 .logo {
@@ -41,6 +42,7 @@ header {
 
 .header-navigaton {
   display: flex;
+  margin-right: -20px;
 }
 
 .search-icon {
@@ -60,6 +62,7 @@ nav li {
 .base {
   text-decoration: none;
   word-spacing: 4px;
+  font-size: 1rem;
 }
 .nav-link-sign-in {
   padding: 0px 4px 0px 4px;
@@ -67,7 +70,7 @@ nav li {
 }
 
 .nav-link-Get-started {
-  padding: 10px 10px 10px 10px;
+  padding: 14px 14px 14px 14px;
   border-radius: 5px;
 }
 
@@ -81,6 +84,9 @@ nav li {
   color: aliceblue;
   background: black;
 }
+.light {
+  color: lightgray;
+}
 
 /* stylings for the main content of the page*/
 .landing-section {
@@ -91,9 +97,10 @@ nav li {
 }
 
 .big-opening-text {
+  max-width: 900px;
+  margin-left: 170px;
   padding-bottom: 20px;
-  width: 100%;
-  font-size: 40px;
+  font-size: 2.3rem;
 }
 
 h1 {
@@ -105,8 +112,8 @@ h1 {
 }
 
 .open-paragragh p {
-  max-width: 680px;
-  margin-left: 350px;
+  max-width: 690px;
+  margin-left: 280px;
   font-size: 1.2rem;
 }
 
@@ -120,10 +127,11 @@ h1 {
 
 .code-snippet {
   padding-top: 60px;
+  margin-top: 20px;
 }
 
 .code-snippet img {
-  width: 80%;
+  max-width: 80%;
 }
 
 .main-content {
@@ -135,10 +143,60 @@ h1 {
   padding: 60px 36px 50px 150px;
 }
 
+.column-one {
+  padding-right: 10px;
+}
+
 .snippet-information {
-  text-align: center;
+  margin-top: 40px;
+  margin-left: -14px;
+}
+
+.description-heading {
+  max-width: 600px;
+}
+
+.description-heading h2 {
+  font-size: 2.2rem;
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+.description-paragragh {
+  max-width: 820px;
+}
+
+.description-paragragh p {
+  max-width: 540px;
+  padding-bottom: 24px;
 }
 
 .customizable-snippet-image img {
-  width: 80%;
+  max-width: 400px;
+  margin-right: 90px;
+}
+
+/*footer styles*/
+.footer-section {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 128px;
+  padding-left: 128px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+}
+
+.links {
+  text-decoration: none;
+  color: gray;
+  padding-left: 20px;
 }
